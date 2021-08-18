@@ -10,3 +10,4 @@ Rails.start()
 ActiveStorage.start()
 
 import "controllers"
+import "styles/frontend"
