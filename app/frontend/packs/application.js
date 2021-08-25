@@ -10,4 +10,9 @@ Rails.start()
 ActiveStorage.start()
 
 import "controllers"
+
 import "styles/frontend"
+import "styles/shared"
+
+import "scripts/frontend"
+import "scripts/shared"
