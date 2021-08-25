@@ -9,10 +9,14 @@ import * as ActiveStorage from "@rails/activestorage"
 Rails.start()
 ActiveStorage.start()
 
-import "controllers"
+const images = require.context('../images', true)
+const imagePath = (name) => images(name, true)
 
-import "styles/frontend"
-import "styles/shared"
+import "controllers";
 
-import "scripts/frontend"
-import "scripts/shared"
+import "styles/frontend";
+import "styles/shared";
+
+import "scripts/frontend";
+import "scripts/shared";
+
